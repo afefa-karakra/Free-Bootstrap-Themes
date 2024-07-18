@@ -1,0 +1,446 @@
+/*public*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&family=Dancing+Script&family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&family=Dancing+Script&family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&family=Dancing+Script&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.continer{
+    width: 80%;
+    margin: auto;
+}
+.overlay{
+    background-color: rgba(92, 77, 66, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+/*header section*/
+.header{
+    background-image: url('../img/bg-masthead\ \(1\).jpg');
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+   
+}
+.navbar{
+    overflow: hidden;
+}
+
+.navbar-right{
+    overflow: hidden;
+    float: left;
+    width: 60%;
+    padding-top:30px ; 
+    
+}
+.navbar-left{
+    padding-top:30px ;
+    float: left;
+    width: 40%;
+    color: #e9ecef;
+}
+.navbar-left p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+.navbar-right .item{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.navbar-right .item a{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    font-size: 14.4px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: left;
+    width: 30%;
+
+}
+.header-content{
+   padding-top: 15%; 
+}
+.header-content h1{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 40px;
+    width: 50%;
+    margin: auto;
+    
+}
+.header-content p{
+    width: 50%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: rgba(255, 255, 255 , 0.75);
+    line-height: 24px;
+}
+.header-content button{
+    color: #fff;
+    background-color: #f4623a;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    
+}
+.header-content hr{
+    background-color: #f4623a;
+    max-width: 55px;
+    height: 1px;
+    margin: auto;
+    opacity: 1;
+    margin-bottom: 20px;
+    border: 1px solid #f4623a;
+    border-radius: 30px;
+    
+    
+}
+/* start-section */
+.start{
+    background-color: #f4623a;;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 95px;
+}
+.start h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.start p{
+    width: 68%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: rgba(255, 255, 255 , 0.75);
+    line-height: 24px;
+}
+.start button{
+    color: #000;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 13px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.start-content hr{
+    background-color: #fff;;
+    max-width: 55px;
+    height: 1px;
+    margin: auto;
+    opacity: 1;
+    margin-bottom: 20px;
+    border: 1px solid #fff;;
+    border-radius: 30px;
+
+}
+/*start service section */
+.service{
+    text-align: center;
+    padding-top: 90px;
+}
+.serviceM .service-title{
+    color: #212529;
+    padding-bottom: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.service-content .list{
+    display: inline-block;
+    width: 18%;
+    padding-bottom: 10%;
+    margin: 25px;
+}
+.service-content .list i {
+    color: rgb(244, 98, 58);
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    
+}
+.service-content .list h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 5px;
+}
+.service-content p{
+    color: #6c757d;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.service-title hr{
+    background-color: #f4623a;
+    max-width: 55px;
+    height: 1px;
+    margin: auto;
+    opacity: 1;
+    margin-bottom: 20px;
+    border: 1px solid #f4623a;
+    border-radius: 30px; 
+}
+.service-title h2{
+    padding-bottom: 30px;
+}
+
+/*pictures section*/
+.pictures{
+    overflow: hidden;
+}
+.pictures-items img {
+    width: 100%;
+    display: block;
+
+} 
+.pictures-items {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    text-align: center;
+}
+.ovarlay{
+
+    position: absolute;
+    background-color: rgba(244, 98, 58 , 0.9);
+    z-index: 9999;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    opacity: 0;
+    transition: opacity 1s;      
+}
+.pictures-items:hover .ovarlay{
+    opacity: 1;
+} 
+.pictures-items .ovarlay p {
+
+    text-align: center;
+    padding-top: 20%;
+    color: #fff;
+}
+.pictures-items .ovarlay h2{
+    padding-top: 60px;
+}
+
+/* start download section */
+.download {
+    background-color: #212529;
+    text-align: center;
+    padding-bottom: 95px;
+    padding-top: 95px;
+}
+.download h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.download button{
+    color: #000;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 13px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+/* start touch section */
+.touch{
+   
+    text-align: center; 
+}
+.touch h2{
+    color: #000;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 35px;
+    padding-top: 8%;
+
+}
+.touch .touch-title p{
+    color: #212529;
+    width: 45%;
+    margin: auto;
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.form .item{ 
+    display: block;
+    padding-bottom: 30px;  
+}
+
+.item .name{
+    height: 50px;
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.item .name::placeholder {
+    color: #212529; 
+    background-color: #fff;
+    padding-left: 3px; 
+    font-size: 20px;
+    font-weight: 400;
+     font-family:'Alegreya', serif;
+}
+
+.item .email{
+    height: 50px;
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.item .email::placeholder {
+    color: #212529; 
+    background-color: #fff;
+    padding-left: 3px; 
+    font-size: 20px;
+    font-weight: 400;
+     font-family:'Alegreya', serif;
+}
+
+.item .phone{
+    height: 50px;
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.item .phone::placeholder {
+    color: #212529; 
+    background-color: #fff;
+    padding-left: 3px; 
+    font-size: 20px;
+    font-weight: 400;
+     font-family:'Alegreya', serif;
+}
+
+.item .message{
+    height: 150px;
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.message::placeholder {
+    color: #212529; 
+    background-color: #fff;
+    padding-left: 3px; 
+    font-size: 20px;
+    font-weight: 400;
+     font-family:'Alegreya', serif;
+     background-color: #000;
+}
+
+.form button{
+    color: #fff;
+    background-color: #f4623a;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 45%;
+    height: 55px;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+.touch-end i{
+    color:#6c757d;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+.touch-end p{
+    color: rgb(33, 37, 41);
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 130px;
+}
+.touch-title hr{
+    background-color: #f4623a;
+    max-width: 55px;
+    height: 1px;
+    margin: auto;
+    opacity: 1;
+    margin-bottom: 20px;
+    border: 1px solid #f4623a;
+    border-radius: 30px; 
+}
+
+
+/* start footer section */
+.footer{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #6c757d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+    width: 100%;
+    margin: auto;
+    font-family:'Alegreya', serif;
+}
+
+/*end footer*/
+
+ 
+
+
+
+
+
+
+
+
